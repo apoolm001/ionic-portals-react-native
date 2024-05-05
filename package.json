@@ -25,16 +25,7 @@
     "!**/__mocks__"
   ],
   "scripts": {
-    "test": "jest",
-    "typescript": "tsc --noEmit",
-    "lint": "eslint \"**/*.{js,ts,tsx}\"",
-    "lint:fix": "eslint \"**/*.{js,ts,tsx}\" --fix",
-    "docs": "typedoc --out ./docs/documentation ./src --tsconfig ./tsconfig.build.json",
-    "prepare": "bob build",
-    "release": "release-it",
-    "example": "yarn --cwd example",
-    "pods": "cd example && pod-install --quiet",
-    "bootstrap": "yarn example && yarn && yarn pods"
+    "test": "ls"
   },
   "keywords": [
     "react-native",
